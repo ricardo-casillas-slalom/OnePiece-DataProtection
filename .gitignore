@@ -1,0 +1,46 @@
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# PDFs and Office files (exclude from repo)
+*.pdf
+*.pptx
+*.docx
+*.xlsx
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+.venv
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Logs
+*.log
+
+# Temporary files
+*.tmp
+*.temp
+
+# Node modules (if any)
+node_modules/
+
+# Snowflake credentials (if any)
+*.pem
+*.key
+secrets.toml
+
+# Keep the structure but ignore large files
+fd-backend/node_modules/
